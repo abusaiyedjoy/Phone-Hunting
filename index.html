@@ -13,15 +13,17 @@
 
 </head>
 <body>
-    <header>
+    <main class="container mx-auto mt-12">
 
-    </header>
-    <main>
-
+      <!-- search input  -->
+      <div onclick="getResult()" class="bg-gray-200 rounded-xl mb-5">
+        <input id="input-field" type="text" placeholder="Search..." class="input input-bordered input-info w-full max-w-xs" />
+        <button class="btn btn-info">Search</button>
+      </div>
+      <!-- search result  -->
+      <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+      </div>
     </main>
-    <footer>
-
-    </footer>
-    <script src="./script/color.js"></script>
+    <script src="./script/phone.js"></script>
 </body>
 </html>
